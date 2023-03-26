@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # In[1]:
 
@@ -78,9 +77,6 @@ Mob_data.info()
 
 
 # In[15]:
-
-
-#in KNN We don't care abt the outliers becoz any how the range or reserved values are considered
 
 
 # In[9]:
@@ -162,14 +158,10 @@ model_KNN.fit(X_train,Y_train)
 
 #-------------------------------
 Y_pred=model_KNN.predict(X_test)   
-print(list(zip(Y_test,Y_pred)))   #Doubt what is ZIp?
+print(list(zip(Y_test,Y_pred)))  
 
 
-# # Dount of above op
-# aata ha metrix mnx range bagh khup jasta tar hytun samjel kasa konta konta barobar ahai?
-# 
-# 
-# but aata hai visible mhnuna jasta asel tar how to get it?
+
 
 # In[23]:
 
@@ -190,29 +182,7 @@ acc=accuracy_score(Y_test,Y_pred)
 print("Accuracy of the model: ",acc) 
 
 
-# #aajun ek dount
-# ho wrong ahai na
-# Pramod ch pan same tuja sarkh
-# harami tu khota bolas na nhai nhai karych
-# ho adhich kelys tu rahudet
-# thik ahai nhi baghych 
-# nko
-# mnz
-# nko hmm
-# 
-# W8 I have missed some sytp
-# Oyee 
-#  range(1,31 aapan mhiti hai value kadhleli kuthun me miss keli vatta ti n maja KNN madhe pan nahi ahai kya karyu
 
-# # How to read 4*4 metric for the type 1 & type 2 error also below?
-
-# Y_pred=model_KNN.predict(test_data)
-# Y_pred
-# 
-# #why this step??
-# 
-# #ho tu kar kar
-# #me slow karte jara
 
 # In[24]:
 
