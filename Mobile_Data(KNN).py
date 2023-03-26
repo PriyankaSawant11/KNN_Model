@@ -102,7 +102,6 @@ scaler=StandardScaler()
 scaler.fit(X_train)
 
 X_train=scaler.transform(X_train)  
-#error #doubt transform when is performed and the uses of combining both (fit & transform)
 
 
 # In[11]:
@@ -110,8 +109,6 @@ X_train=scaler.transform(X_train)
 
 X_train
 
-
-# # Above op range value disp on which basis?
 
 # In[12]:
 
@@ -122,8 +119,6 @@ from sklearn.model_selection import train_test_split
 
 X_train,X_test,Y_train,Y_test=train_test_split(X_train,Y_train,test_size=0.2,random_state=10)  
 
-
-# # What is random_state??
 
 # In[13]:
 
